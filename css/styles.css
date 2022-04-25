@@ -20,7 +20,8 @@ li {
 }
 
 .wrapper {
-    width: 80%;
+    width: 1100px;
+    max-width: 98%;
     margin: auto;
 }
 
@@ -36,6 +37,7 @@ li {
 
 .processes-wrapper {
     width: 1100px;
+    max-width: 98%;
     margin-left: 8rem;
 }
 
