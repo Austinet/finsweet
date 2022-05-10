@@ -1,0 +1,675 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:"Manrope", Arial, Helvetica, sans-serif;
+    color: #1E1B1B;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color:#1E1B1B;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1.125rem;
+    color: #fff;
+    border: none;
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 2.9rem;
+    margin-bottom: 2rem;
+}
+
+h3 {
+    font-weight: 600;
+    line-height: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: 1.1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin:0 auto 3rem;
+}
+
+.arrow-link {
+    display: flex;
+    align-items: center;
+}
+.arrow-link span{
+    margin-right: 1rem;
+}
+
+.orange-btn,
+.black-btn {
+    color: #fff;
+    height: 64px;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+}
+
+.orange-btn {
+    background-color: #FF6433;
+    width: 203px;
+}
+
+.black-btn {
+    background-color: #1E1B1B;
+    width: 177px;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 27px;
+}
+
+/* header section */
+.header-nav {
+    max-width: 1200px;
+    margin:0 auto 2rem;
+    padding: 1.5rem 1rem;
+}
+
+.header-nav,
+nav,
+nav ul {
+        align-items: center;
+}
+
+nav ul{
+    border-right: 1px solid #939191;
+    margin-right: 1.5rem;
+}
+nav li {
+    margin-right: 1.5rem;
+}
+
+.assistance-container {
+    display: flex;
+}
+.assistance-container img {
+    margin-right: 0.5rem;
+}
+.assistance-container h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.assistance-container p {
+    font-weight: 600;
+}
+
+/* intro section */
+#intro > div {
+    width: 47.5%;
+}
+
+.intro-image-section img {
+    width: 100%;
+}
+.intro-details-section {
+    align-self: center;
+}
+
+.intro-details-section h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    line-height: 1.2;
+    max-width: 554px;
+}
+.intro-details-section .working-hours {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+}
+.working-hours img {
+    margin-right: 0.5rem;
+}
+
+.intro-details-section h3 {
+    color: #939191;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.intro-details-section p {
+    font-weight: 600;
+}
+
+/* features section */
+#features {
+    background-color: #E2E6E9;
+    padding: 4rem 0;
+}
+
+#features .container > div {
+    width: 45%;
+}
+
+.features-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+.features-item img, .blank {
+    margin-right: 1rem;
+}
+.features-item h3 {
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+.features-item p {
+    max-width: 330px;
+}
+
+.features-link-section {
+    display: flex;
+}
+.blank {
+    width: 47px;
+}
+
+#features .service-quote h3 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    max-width: 450px;
+    line-height: 45px;
+}
+
+.service-quote input {
+    width: 100%;
+    padding: 1.4rem 2rem;
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 2px;
+    height: 72px;
+    outline: none;
+}
+
+.service-quote .orange-btn {
+    margin-top: 2rem;
+}
+
+/* process section */
+#process {
+    max-width: 1000px;
+    margin-left: 15%;
+    padding: 4rem 1rem;
+}
+
+.process-details {
+    align-self: center;
+}
+
+.process-details h2{
+    margin-bottom: 1rem;
+    max-width: 550px;
+    line-height: 55px;
+}
+
+.process-details p {
+    max-width: 400px;
+    margin-bottom: 2rem;
+}
+.process-details .orange-btn {
+    width: 177px;
+}
+
+.processes .steps {
+    display: flex;
+    margin-bottom: 1rem;
+}
+.processes .step-image {
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.line {
+    border-right: 2px dotted orangered;
+    height: 40px;
+    margin-top: 0.5rem;
+}
+.step-details {
+    align-self: flex-end;
+}
+.step-details p {
+    max-width: 262px;
+}
+.step-details h3 {
+    font-size: 1.5rem;
+    margin: 1.5rem 0 0.5rem;
+}
+
+/* services section */
+#services {
+    background-color: #F2F2F2;
+    padding: 3rem 0;
+}
+.services-header {
+    text-align: center;
+}
+.services-header h3 {
+    font-size: 1.5rem;
+}
+
+.services-main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 0.5rem;
+    margin: 3rem 0 2rem;
+}
+.services-item {
+    background-color: #fff;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.services-item img {
+    margin-bottom: 1rem;
+}
+
+#services .arrow-link {
+    justify-content: flex-end;
+}
+.services-item:hover {
+    background-color: #FF6433;
+    color: #fff;
+}
+
+/* service query section */
+.query {
+    display: flex;
+}
+
+.query > div {
+    height: 380px;
+}
+
+.query .car-image {
+    width: 15%;
+    background: url(../img/Image-1.png) no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+.service-query-details {
+    width: 45%;
+    background-color:#FF6433;
+    color: #fff;
+    padding: 1rem 3rem;
+}
+
+.service-query-details h2 {
+    font-size: 2.3rem;
+    margin: 6rem 0 3rem;
+}
+
+.query .car-repair-image {
+    width: 40%;
+    background: url(../img/image-2.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.service-statistics {
+    padding: 2rem 0;
+    background-color: #F2F2F2;
+}
+
+.service-statistics ul {
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+.service-statistics h3 {
+    color:#661CE7;
+    font-size: 2.8rem;
+    font-weight: 800;
+    line-height: 60px;
+}
+
+/* brands section */
+#brands {
+    background-color: #FAFAFA;
+    padding: 4rem 0 3rem;
+}
+#brands h2 {
+    text-align: center;
+}
+
+.brands-main ul{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+    justify-items: center;
+    gap: 1rem;
+}
+
+/* testimonials section */
+#testimonials {
+    background-color: #F2F2F2;
+    padding: 3rem 1rem;
+}
+
+.testimonials-container {
+    max-width: 950px;
+    margin: auto;
+}
+
+.testimonials-container h2 {
+    line-height: 55px;
+    text-align: center;
+}
+
+.testimonies {
+    margin-bottom: 2rem;
+}
+.testimonies-item {
+    min-width: 400px;
+    background-color: #fff;
+    padding: 2.5rem;
+    margin-right: 1rem;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.profile-image {
+    margin-right: 0.5rem;
+}
+.profile h3 {
+    font-size: 1.5rem;
+}
+.profile p {
+    font-weight: 600;
+    color: #939191;
+}
+
+.testimonials-footer {
+    align-items: center;
+}
+
+.testimonials-footer > div {
+    width: 130px;
+}
+.next-previous {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.next-previous button {
+    margin-left: 1rem;
+}
+
+.testimonials-footer ul{
+    display: flex;
+    justify-self: center;
+}
+.testimonials-footer li {
+    margin-right: 0.5rem;
+    width: 32px;
+    border: 4px solid #939191;
+}
+.testimonials-footer li.selected {
+    border: 4px solid #FF6433
+}
+
+/* faq section */
+#faq {
+    background-color: #E2E6E9;
+    padding: 3.5rem 1rem;
+}
+.faq-container {
+    max-width: 750px;
+    margin: auto;
+}
+.faq-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 55px;
+}
+
+.faq-container button {
+    background-color: #FF6433;
+    font-size: 2rem;
+    width: 40px;
+    height: 38px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-item {
+    background-color: #fff;
+    margin-bottom: 0.5rem;
+    padding: 1rem 2rem 0.5rem;
+}
+.question {
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.question h3 {
+    font-size: 1.3rem;
+}
+
+.faq-item p {
+    margin-bottom: 1rem;
+}
+
+/* footer section */
+footer {
+    color: #fff;
+}
+
+.footer-contact-container {
+    background-color: #1E1B1B;
+    opacity: 0.98;
+    padding: 4.5rem 1rem;
+}
+.footer-container,
+.footer-nav {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-container > div {
+    width: 45%;
+}
+.footer-container h2 {
+    line-height: 60px;
+}
+
+.footer-container h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+    color: #939191;
+}
+
+.contact > div {
+    margin-bottom: 1.5rem;
+}
+
+ul.socials {
+    display: flex;
+}
+.socials li {
+    margin-right: 1.5rem;
+}
+
+.footer-nav-container {
+    background-color: #1E1B1B;
+    padding: 2.5rem 0.5rem;
+}
+
+footer nav ul {
+    border: none;
+    margin-right: 0;
+}
+
+.footer-nav a {
+    color: #fff;
+}
+
+p.copyright {
+    color: #939191;
+}
+
+
+@media(max-width:1000px) {
+    #intro {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    #intro > div {
+        width: 100%;
+    }
+    .intro-details-section h1 {
+        max-width: 100%;
+    }
+    .intro-details-section .working-hours {
+        justify-content: center;
+        text-align: left;
+    }
+    #process {
+        margin-left: 0;
+    }
+}
+
+
+@media(max-width:870px) {
+       html {
+        font-size: 15px;
+    }
+
+    header nav.flex-between {
+        display: none;
+    }
+
+    #features .flex-between,
+    #process,
+    .query{
+        flex-direction: column;
+    }
+    #features .container > div {
+        width: 100%;
+    }
+    .features-details {
+        margin-bottom: 3rem;
+    }
+     .process-details {
+        align-self: stretch;
+        margin-bottom: 3.5rem;
+    }
+   
+    .step-details p {
+        max-width: 450px;
+    }
+
+    .step-details {
+        align-self: stretch;
+    }
+
+    .query .car-image,
+    .query .car-repair-image,
+    .service-query-details{
+        width: 100%;
+    }
+    .testimonies {
+        overflow: scroll;
+    }
+}
+
+@media(max-width:750px) {
+    #intro h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 2rem !important;
+        line-height: 1.2 !important;
+    }
+    footer .flex-between {
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer-container > div {
+        width: 100%;
+    }
+    ul.socials {
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+
+    footer  .nav-links li {
+        margin: 1rem 0;
+    }
+         
+    .service-statistics .flex-between {
+        flex-wrap: wrap;
+    }
+    .service-statistics li {
+        margin-bottom: 1.5rem;
+        flex-basis: 170px;
+    }
+   
+    .step-details h3 {
+        margin-top: 0.5rem;
+    }
+}
+
+@media(max-width:400px) {
+    #intro h1 {
+        font-size: 1.8rem;
+    }
+    h2 {
+        font-size: 1.5rem !important;
+        line-height: 1.2 !important;
+    }
+    h3 {
+        font-size: 1.3rem !important;
+    }
+    .service-statistics ul {
+        justify-content: center;
+        text-align: center;
+    }
+}
